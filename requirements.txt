@@ -3,3 +3,4 @@ openai
 pandas
 langchain
 faiss-cpu
+scipy
