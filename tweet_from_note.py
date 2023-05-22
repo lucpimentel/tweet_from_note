@@ -67,7 +67,7 @@ if text and openai_api_key:
     if st.button("Create Tweets"):
         # Show a loading message while the code snippet is executing
         with st.spinner("Running code..."):
-            generated_tweets = generate_tweets(list_of_personal_notes[:2],llm_chain)
+            generated_tweets = generate_tweets(list_of_personal_notes ,llm_chain)
     
         # Get the current date and time as a string
         now = datetime.now().strftime("%d-%m-%Y")
